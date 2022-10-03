@@ -1,0 +1,8 @@
+<resources>
+    <string name="connection_timeout">The server has timed out!</string>
+    <string name="responseError">The server did not give the expected data!</string>
+    <string name="error">Error!</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="refresh">Refresh</string>
+    <string name="check_internet_connection">Please check your internet connection and try again!</string>
+</resources>

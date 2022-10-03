@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.necessary_utils" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/card_parent_night_theme_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    //bottom sheet dialog style
+
+    <style name="customBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="bottomDialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="bottomSheetStyle">@style/customBottomSheetStyle</item>
+    </style>
+
+    //theme colors
+
+    <style name="cardParentStyle">
+        <item name="cardBackgroundColor">@color/card_parent_night_theme_color</item>
+    </style>
+
+    <style name="cardChildStyle">
+        <item name="cardBackgroundColor">@color/card_child_night_theme_color</item>
+    </style>
+
+    <style name="cardStyle">
+        <item name="android:background">@color/card_parent_night_theme_color</item>
+    </style>
+
+    <style name="cardStyleTint">
+        <item name="android:backgroundTint">@color/card_parent_night_theme_color</item>
+    </style>
+
+    <style name="backgroundStyle">
+        <item name="android:background">@color/background_color_night_theme</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="iconStyle">
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="iconStyleWithTint">
+        <item name="tint">@color/white</item>
+        <item name="android:backgroundTint">@color/card_parent_night_theme_color</item>
+    </style>
+
+    <style name="iconStyleWithTintBackgroundColor">
+        <item name="tint">@color/white</item>
+        <item name="android:backgroundTint">@color/background_color_night_theme</item>
+    </style>
+
+    <style name="tintBackgroundColorStyle">
+        <item name="android:backgroundTint">@color/background_color_night_theme</item>
+    </style>
+
+    <style name="viewBackgroundStyle">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="cardParentStyleBoxBackground" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/card_parent_night_theme_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF2121</color>
+    <color name="blue">#248AFD</color>
+    <color name="blue_light">#E8F0FE</color>
+    <color name="blue_night">#185E78</color>
+    <color name="green">#57B657</color>
+    <color name="gray">#6C7383</color>
+    <color name="yellow">#FFC107</color>
+    <color name="gray_light">#ACACAC</color>
+    <color name="orange_color">#f47d3b</color>
+    <color name="drop_down_color">#2d2d2d</color>
+    <color name="color_place_holder">#8A8A8A</color> //place holder and distinctive color
+    <color name="background_color_light_theme">#F5F7FF</color>
+    <color name="background_color_night_theme">#121212</color>
+    <color name="card_parent_night_theme_color">#202020</color>
+    <color name="card_child_night_theme_color">#3C3C3C</color>
+</resources>

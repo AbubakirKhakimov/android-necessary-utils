@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connection_timeout">Время ожидания сервера истекло!</string>
+    <string name="responseError">Сервер не дал ожидаемой данные!</string>
+    <string name="error">Ошибка!</string>
+    <string name="no_internet_connection">Нет соединения с интернетом!</string>
+    <string name="refresh">Обновить</string>
+    <string name="check_internet_connection">Пожалуйста, проверьте подключение к Интернету и повторите попытку!</string>
+</resources>

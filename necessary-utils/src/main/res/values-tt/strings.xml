@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connection_timeout">Сервердан маълумот кутиш вақти тугади!</string>
+    <string name="responseError">Сервер кутилган маълумотни бермади!</string>
+    <string name="error">Хатолик!</string>
+    <string name="no_internet_connection">Интернет алоқаси ёъқ!</string>
+    <string name="refresh">Янгилаш</string>
+    <string name="check_internet_connection">Илтимос, интернет алоқангизни текширинг ва қайтадан уриниб кўринг!</string>
+</resources>
