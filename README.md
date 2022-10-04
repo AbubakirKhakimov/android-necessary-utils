@@ -33,6 +33,6 @@
 
     ```javascript
     dependencies {
-        implementation 'com.github.AbubakirKhakimov:android-necessary-utils:1.0'
+        implementation 'com.github.AbubakirKhakimov:android-necessary-utils:1.0.1'
     }
     ```
