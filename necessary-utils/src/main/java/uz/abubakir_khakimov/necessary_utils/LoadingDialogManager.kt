@@ -10,9 +10,15 @@ class LoadingDialogManager(private val context: Context, private val animType: I
     companion object{
         const val TYPE_DEFAULT_LOADING = 0
         const val TYPE_SEARCHING = 1
+        const val TYPE_CUSTOM = 2
     }
 
     private var customDialog: AlertDialog? = null
+    private var customAnim: String? = null
+
+    fun setAnim(anim: String){
+        customAnim = anim
+    }
 
     fun show(){
         if (customDialog == null){
@@ -43,6 +49,10 @@ class LoadingDialogManager(private val context: Context, private val animType: I
         return when(animType){
             0 -> "loading_anim.json"
             1 -> "searching.json"
+            2 -> customAnim.ifNull {
+                throw Exception("No animation provided! " +
+                        "\"animType\" is set to \"TYPE_CUSTOM\", but no animation is provided!")
+            }
             else -> "loading_anim.json"
         }
     }

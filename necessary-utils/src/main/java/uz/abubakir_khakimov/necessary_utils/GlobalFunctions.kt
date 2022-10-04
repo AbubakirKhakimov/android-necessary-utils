@@ -14,6 +14,14 @@ fun <T> T?.isNull() = (this == null)
 
 fun <T> T?.isNotNull() = (this != null)
 
+inline fun <T> T?.ifNull(body: () -> T): T{
+    return this ?: body()
+}
+
+inline fun <T, A> T?.getNotNullValue(body: (T?) -> A): A{
+    return body(this)
+}
+
 fun <T> T.isZero() = (this == 0)
 
 fun <T> T.isNotZero() = (this != 0)
