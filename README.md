@@ -36,3 +36,21 @@
         implementation 'com.github.AbubakirKhakimov:android-necessary-utils:1.0.1'
     }
     ```
+    
+## GlobalFunctions
+
+1. Using the isNull() or isNotNull() function, you can check for a null value of any type.
+
+    ```java
+    var value: String? = "Hello world!"
+
+    value.isNull() //false
+    value.isNotNull() //true
+    ```
+    
+    ```java
+    var value: String? = null
+
+    value.isNull() //true
+    value.isNotNull() //false
+    ```
